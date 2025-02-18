@@ -1,0 +1,31 @@
+.cookie-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers horizontally */
+  justify-content: center; /* Centers vertically */
+  background-color: #f4f4f9;
+}
+
+.cookie-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.cookie-button img {
+  width: 80px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.cookie-button img:hover {
+  transform: scale(1.1);
+}
+
+.points {
+  font-size: 1.2em;
+  color: #333;
+  text-align: center;
+  margin-top: 10px;
+}

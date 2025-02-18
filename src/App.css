@@ -1,0 +1,14 @@
+h1 {
+  text-align: center;
+  color: #4caf50;
+  font-size: 3em;
+}
+
+div {
+  background-color: #f4f4f9;
+  padding: 2rem;
+}
+
+h1 + * {
+  margin-top: 2rem;
+}
