@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./CookieClicker.css"; // Import the CSS file
 
 const CookieClicker = () => {

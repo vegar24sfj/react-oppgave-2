@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 const CatFacts = () => {
   const [facts, setFacts] = useState([]); // Bruker useState for å lagre kattfakta
@@ -12,7 +12,7 @@ const CatFacts = () => {
         setFacts(data.data); // Setter dataene fra API-et
         setLoading(false); // Endrer loading-status til false når data er hentet
       })
-      .catch((err) => {
+      .catch(() => {
         setError("Noe gikk galt. Prøv igjen senere."); // Feilhåndtering
         setLoading(false); // Setter loading til false selv om det er en feil
       });
