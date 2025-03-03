@@ -1,4 +1,3 @@
-import React from "react";
 import "./App.css";
 import CookieClicker from "./components/CookieClicker";
 import CatFacts from "./components/CatFacts";
